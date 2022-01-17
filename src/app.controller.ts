@@ -4,7 +4,7 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
   constructor() {}
 
-  @Get('donne-moi-toutes-les-informations-d’un-utilisateur')
+  @Get('donne-moi-toutes-les-informations-d-un-utilisateur')
   getFakeUserList() {
     return [
       {id: "ahgdvb45dfte54aYHs", firstname: "Myśliwiec", lastname: "Kamil", email: "example@sample.com", password: "NotSoSecret!99", dateOfBirth: "1001887200000"},
